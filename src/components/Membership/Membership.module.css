@@ -1,0 +1,47 @@
+.membership {
+  background-color: var(--light-bg);
+}
+
+.membership h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+}
+
+.plansGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.planCard {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.price {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin: 1rem 0;
+}
+
+.price span {
+  font-size: 1.5rem;
+}
+
+.planCard ul {
+  list-style: none;
+  margin: 2rem 0;
+}
+
+.planCard ul li {
+  margin: 1rem 0;
+}
+
+.planCard button {
+  width: 100%;
+}
